@@ -26,4 +26,5 @@
 	}
 
 	echo rajaongkir_city();
+	echo 'test';
 ?>
