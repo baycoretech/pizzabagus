@@ -18,6 +18,7 @@
     $class_language   = new Language($pdo);
     $default_language = $class_language->default_language();
     $default_page     = $default_language->cr_languageCode;
+    $current_language = $_GET['lang'];
 
     if(!isset($default_page)) {
         $empty_order_text = 'Your order is empty.';
@@ -26,7 +27,7 @@
         $qty_table   = 'QTY';
     }
     else {
-        if($lang == $default_language->cr_languageCode) {
+        if($current_language == $default_language->cr_languageCode) {
             $empty_order_text = 'Your order is empty.';
             $order_text   = 'ORDER';
             $my_order_btn = 'MY ORDER';
@@ -91,7 +92,7 @@
                                             echo $topping_name->cr_toppingsName.', ';
                                     }
                                     else {
-                                        if($lang == $default_language->cr_languageCode) {
+                                        if($current_language == $default_language->cr_languageCode) {
                                             if(end($explode_toppings) === $topping)
                                                 echo $topping_name->cr_toppingsName;
                                             else
