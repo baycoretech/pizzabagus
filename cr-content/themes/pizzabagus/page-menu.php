@@ -274,7 +274,7 @@
 						            			$("#button-add-to-order-<?php echo $data->cr_ourmenuID ?>").removeAttr('disabled');
 						            			$("#button-add-to-order-<?php echo $data->cr_ourmenuID ?>").html('<?php echo $order_btn ?>');
 						            		}, 1000);
-						            		$("#navbar-load-cart").load('<?php echo MURL."cr-content/themes/".$v_themes?>/tc-cart-load-navbar-cart.php');
+						            		$("#navbar-load-cart").load('<?php echo MURL."cr-content/themes/".$v_themes?>/tc-cart-load-navbar-cart.php?lang=<?php echo $lang ?>');
 						            		setTimeout(function() {
 					                            $('#mybook-dropdown').parent().addClass('open');
 					                            $('#mybook-dropdown').attr('aria-expanded','true');
