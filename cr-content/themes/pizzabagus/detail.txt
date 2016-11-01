@@ -1,0 +1,5 @@
+Pizza Bagus
+Bayu Kurniawan
+Pizza Bagus is a custom premium theme from Technologia Creativa, special for ordering pizza online.
+none,none,none,none,none
+1.0.0

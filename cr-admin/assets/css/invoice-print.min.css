@@ -1,0 +1,183 @@
+/*   
+Template Name: Color Admin - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.6
+Version: 2.0.0
+Author: Sean Ngu
+Website: http://www.seantheme.com/color-admin-v2.0/admin/material/
+*/
+@media print {
+    body {
+        padding: 0!important;
+        margin: 3mm 5mm!important;
+        -webkit-print-color-adjust: exact;
+        font-size: 80%!important;
+    }
+
+    .content,.page-header-fixed {
+        padding: 0!important;
+        margin: 0!important
+    }
+
+    .pace, .page-header, .breadcrumb, .header,.sidebar,.theme-panel {
+        display: none!important
+    }
+
+    .invoice-company {
+        border-bottom: 1px solid #e2e7eb!important;
+        padding-bottom: 15px;
+        margin-bottom: 20px!important
+    }
+
+    .invoice .invoice-from,.invoice .invoice-to {
+        float: left!important;
+        display: inline!important;
+        width: 30%!important;
+        margin: 0 20px 0 0!important;
+    }
+
+    .invoice .invoice-from strong,.invoice .invoice-to strong, .invoice .invoice-date .date strong {
+        font-size: 12px;
+    }
+
+    .invoice .invoice-from:not(strong),.invoice .invoice-to:not(strong) {
+        font-size: 11px;
+    }
+
+    .invoice .invoice-date {
+        float: right!important;
+        margin: 0!important;
+        width: 25%!important;
+        display: inline!important;
+        text-align: right!important
+    }
+
+    .invoice-header {
+        margin: 0!important;
+        padding: 0!important;
+        border: none!important;
+        background-color: #ca0113!important;
+    }
+
+    .table-responsive {
+        border: none!important;
+        display: block!important;
+        float: left!important;
+        width: 100%!important;
+        margin-top: 10px!important
+    }
+
+    .invoice-price {
+        margin-top: 20px!important;
+        border: 1px solid #e2e7eb!important;
+        float: left!important;
+        width: 100%!important;
+        display: block!important
+        padding: 20px;
+    }
+
+    .invoice .invoice-price .invoice-price-left,.invoice .invoice-price .invoice-price-right {
+        display: block!important;
+        float: left!important;
+        width: 75%!important
+    }
+
+    .invoice .invoice-price .invoice-price-right {
+        width: 25%!important
+    }
+
+    .invoice-price .invoice-price-right {
+        text-align: right!important;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .invoice-price .invoice-price-right small {
+        font-weight: normal;
+        font-size: 10px;
+        display: block;
+        text-align: right;
+    }
+
+    .invoice-from .dl-horizontal dt,.invoice-to .dl-horizontal dt, .invoice-from .dl-horizontal dd span,.invoice-to .dl-horizontal dd span {
+        display: none!important
+    }
+
+    .invoice-price .invoice-price-left .sub-price {
+        float: left!important;
+        display: block!important;
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .invoice-price .invoice-price-left .sub-price small {
+        font-size: 10px;
+        font-weight: normal;
+        display: block;
+        text-align: left;
+    }
+    .invoice .participants-details {
+        float: left!important;
+        margin-top: 30px;
+        width: 100%!important;
+        border: none!important;
+        padding: 0!important;
+        margin-bottom: 0!important;
+    }
+    .invoice .participants-details table {
+        font-size: 10px!important;
+        margin-bottom: 0!important;
+        padding-bottom: 0!important;
+    }
+
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        padding: 5px 8px!important;
+    }
+
+    .invoice-price .invoice-price-right {
+        text-align: right!important
+    }
+
+    .invoice-price .invoice-price-left .sub-price {
+        float: left!important;
+        display: block!important;
+        margin-top: 5px
+    }
+
+    .invoice-border-top {
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 0!important;
+        padding-bottom: 0!important;
+        height: 5px;
+        background-image: url(../img/invoice-line.png)!important;
+        background-size: 100%!important;
+    }
+
+    .invoice-border-top img {
+        display: none;
+    }
+
+    .invoice-footer,.invoice-note {
+        float: left!important;
+        width: 100%!important;
+    }
+
+    .invoice-footer {
+        padding-top: 20px;
+        padding-bottom: 0!important;
+        margin-bottom: 0!important;
+        font-size: 10px;
+    }
+
+    .invoice-note {
+        margin-bottom: 0!important;
+        padding-top: 0!important;
+        font-size: 11px;
+    }
+
+    a[href]:after {
+        content: none !important;
+    }
+}
